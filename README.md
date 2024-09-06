@@ -1,8 +1,3 @@
-البته! در زیر نسخه به‌روز شده از فایل `README.md` است که توضیح می‌دهد این پروژه برای داده‌های *SavvyCAN* طراحی شده، اما با سایر فایل‌های مشابه نیز کار می‌کند.
-
-### `README.md`
-
-```markdown
 # bolop CANBus
 
 A Python-based GUI application designed primarily for cleaning and filtering event data from SavvyCAN logs by comparing them with noise data using CSV files. The application removes matching rows from the event data based on specific columns. While it is tailored for SavvyCAN data, it can also be used with other similar CSV files if they follow the same structure and standards.
@@ -78,7 +73,7 @@ python ui.py
 
 ## Screenshots
 
-*Add screenshots of the GUI here if applicable.*
+![Screenshot 2024-09-06 203043](https://github.com/user-attachments/assets/18022681-db0f-46dd-91c9-084da5c27513)
 
 ## Contributing
 
@@ -88,13 +83,3 @@ python ui.py
 4. Push to the branch: `git push origin my-new-feature`.
 5. Submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Changes made:
-1. **SavvyCAN Data**: A new section is added explaining that the application is primarily designed for SavvyCAN data, but it can be used with other CSV files that follow the same structure.
-2. **Requirements for Other CSV Files**: Clarifies the structure and standards that other CSV files must meet to be compatible with the tool.
-
-This README now provides clear instructions for users who want to use the tool for SavvyCAN data or any other CSV files that have a similar structure.
